@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(rodion-kutsaiev-8P-uQaTd8rw-unsplash.jpg);
+    background-position: center;
+    /* background-color: #f2f2f2; */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 9px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+#city{
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
